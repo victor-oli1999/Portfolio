@@ -1,0 +1,103 @@
+body {
+    background: #242424;
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 26px;
+    margin: auto;
+    width: 80%;
+}
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .direita {
+    font-size: 28px;
+}
+.navbar .esquerda ul {
+    display: flex;
+    list-style: none;
+}
+.navbar .esquerda ul li {
+    margin-left: 25px;
+    font-size: 24px;
+}
+/* HERO SECTION */
+h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.Hero {
+    text-align: center;
+    padding: 100px 0;
+}
+/* SOBRE */
+h3 {
+    font-size: 34px;
+}
+.sobre, .interesses, .habilidades {
+    padding: 0 0 30px 0;
+}
+/* SKILLS */
+.skills {
+    margin-top: 40px;
+}
+.skills ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.skills ul li {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.iconSkill {
+    font-size: 65px;
+    margin-bottom: 13px;
+}
+/* PROJETOS */
+.projeto, .links {
+    display: flex;
+}   
+.img {
+    width: 40%;
+}
+.conteudo {
+    width: 60%;
+}
+.links p {
+    margin-right: 12px;
+}
+/* CONTATO */
+.contato {
+    padding-bottom: 40px;
+}
+.contato .esquerda, .contato .direita {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contato p {
+    margin: 0;
+}
+.contato .esquerda ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.contato .esquerda ul li {
+    margin-bottom: 10px;
+}
+.iconContato {
+    margin-right: 10px;
+}
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
