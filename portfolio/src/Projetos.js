@@ -1,10 +1,18 @@
 import react from "react"
+import portfolio from "./imagens/portfolio.png"
 
 export default function Projetos() {
     return (
         <article className="component">
             <div className="projeto">
-                <div className="img"></div>
+                <div className="img">
+                    <div className="site-topo">
+                        <div className="circulo-vermelho"></div>
+                        <div className="circulo-amarelo"></div>
+                        <div className="circulo-verde"></div>
+                    </div>
+                    <img src={portfolio} />
+                </div>
                 <div className="conteudo">
                     <h4>Portfolio</h4>
                     <p>Desenvolvido para que eu pudesse ter onde me apresentar,
@@ -13,8 +21,8 @@ export default function Projetos() {
                     </p>
                     <p>Foi montado utilizando React, HTML e CSS.</p>
                     <div className="links">
-                        <p>Website</p>
-                        <p>GitHub</p>
+                        <a href="" target="_blank">Website</a>
+                        <a href="https://github.com/victor-oli1999/Portfolio" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -28,8 +36,8 @@ export default function Projetos() {
                     </p>
                     <p>Foi montado utilizando React, HTML e CSS.</p>
                     <div className="links">
-                        <p>Website</p>
-                        <p>GitHub</p>
+                        <a>Website</a>
+                        <a>GitHub</a>
                     </div>
                 </div>
             </div>

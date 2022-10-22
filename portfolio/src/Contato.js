@@ -9,7 +9,7 @@ export default function Contato() {
             <div className="contato">
                 <h3>CONTATO</h3>
                 <div className="esquerda">
-                    <p>Estou aberto a novas oportunidades. Você pode
+                    <p>Estou aberto a novas oportunidades. Sinta-se livre para
                         entrar em contato comigo através dos seguintes meios:
                     </p>
                     <ul>

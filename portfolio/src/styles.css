@@ -39,7 +39,7 @@ h2 {
 h3 {
     font-size: 34px;
 }
-.sobre, .interesses, .habilidades {
+.sobre, .interesses, .habilidades, .conteudo {
     padding: 0 0 30px 0;
 }
 /* SKILLS */
@@ -64,14 +64,48 @@ h3 {
 /* PROJETOS */
 .projeto, .links {
     display: flex;
-}   
+}
+.site-topo {
+    background: #FBF8F3;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    padding: 8px 1px;
+    width: 100%;
+}
+.circulo-vermelho {
+    background: #FF4340;
+    margin: 0 10px;
+}
+.circulo-amarelo {
+    background: #FABA1A;
+}
+.circulo-verde {
+    background: #1AC131;
+}
+.circulo-vermelho, .circulo-amarelo, .circulo-verde {
+    border-radius: 30px;
+    margin-right: 5px;
+    padding: 6px;
+    width: 0px;
+}
 .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 0;
     width: 40%;
+}
+.img img {
+    background: #FBF8F3;
+    padding: 1px;
+    width: 100%;
+    height: auto;
 }
 .conteudo {
     width: 60%;
 }
-.links p {
+.links a {
     margin-right: 12px;
 }
 /* CONTATO */
@@ -90,6 +124,7 @@ h3 {
     display: flex;
     flex-direction: column;
     list-style: none;
+    padding: 0;
 }
 .contato .esquerda ul li {
     margin-bottom: 10px;
@@ -100,4 +135,10 @@ h3 {
 a {
     color: #1a73e8;
     text-decoration: none;
+}
+
+/* DIA */
+.day {
+    background: #F0FFFF;
+    color: #000;
 }
